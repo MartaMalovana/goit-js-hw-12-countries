@@ -11,15 +11,22 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-image: url('https://img4.goodfon.com/original/1600x900/a/77/dolina-smerti-california-shosse-doroga-put.jpg'); background-repeat: no-repeat; background-size: cover;">
-   <form style="display: flex; justify-content: center; margin-top: 150px; ">
+  <body style="
+    background-image: url('https://img4.goodfon.com/original/1600x900/a/77/dolina-smerti-california-shosse-doroga-put.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;">
+   <form style="margin-top: 150px; ">
      <label style="font-size: 25px;">
        Country name:
        <input type="text" autofocus placeholder="Ukraine" name="country" style="margin: 0 0 50px 30px;" autocomplete="off";> 
        <div id="notice" style="display: flex; justify-content: center;"></div>
      </label>
    </form>
-   <ul id="country-list" style="padding-right: 40px; background-color: white;"></ul>
+   <ul id="country-list" style="padding-right: 40px; list-style: none; border-radius: 8px;"></ul>
     <script src="./index.js"></script>
   </body>
 </html>
